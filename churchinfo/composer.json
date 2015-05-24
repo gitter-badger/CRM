@@ -3,6 +3,7 @@
         "illuminate/database": "*",
 		"guzzlehttp/guzzle": "~5.0",
 		"robmorgan/phinx": "dev-master",
-		"slim/slim": "dev-master"
+		"slim/slim": "dev-master",
+		"fzaninotto/faker": "1.5.*@dev"
     }
 }
