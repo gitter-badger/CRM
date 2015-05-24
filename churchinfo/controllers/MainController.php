@@ -14,7 +14,7 @@
 		$rsboys = Person::Boys()->count();
 		$rsgirls = Person::Girls()->count();
 		$families = Family::all()->count();
-		$members = Person::where('per_cls_ID', '=', 2)->count();
+		$members = Person::where('clsid', '=', 2)->count();
 		$sundayschoolclass = Group::where('grp_Type', '=', 4)->count();
 		//
 		//$sSQL = "select * from family_fam order by fam_DateLastEdited desc  LIMIT 10;";
