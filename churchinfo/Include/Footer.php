@@ -20,12 +20,11 @@
 		</aside><!-- /.right-side -->
 	</div><!-- ./wrapper -->
 
-	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="<?php echo $sURLPath."/"; ?>js/bootstrap/bootstrap.min.js"></script>
 
 	<!-- AdminLTE App -->
 	<script type="text/javascript" src="<?php echo $sURLPath."/"; ?>js/AdminLTE/app.js"></script>
 
-	<script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
 	<script language="javascript" type="text/javascript">
 		$("document").ready(function(){
 			$(".searchPerson").autocomplete({

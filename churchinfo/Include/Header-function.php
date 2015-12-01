@@ -34,23 +34,23 @@ global $sPageTitle, $sURLPath;
 $sURLPath = $_SESSION['sURLPath'];
 ?>
     <!-- jQuery -->
-    <link rel="stylesheet" type="text/css" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo $sURLPath."/"; ?>/css/jquery/jquery-ui.min.css">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo $sURLPath."/"; ?>css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo $sURLPath."/"; ?>css/bootstrap/bootstrap-theme.min.css">
 
     <!-- Theme style -->
     <link rel="stylesheet" type="text/css" href="<?php echo $sURLPath."/"; ?>css/AdminLTE.css" />
 
     <!-- google font libraries -->
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css"  />
+    <link rel="stylesheet" type="text/css" href="<?php echo $sURLPath."/"; ?>css/font-awesome.min.css"  />
 
     <!-- Ionicons -->
-    <link href="//code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo $sURLPath."/"; ?>css/ionicons.min.css" />
 
     <!-- jQuery -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="<?php echo $sURLPath."/"; ?>js/jquery/jquery.min.js"></script>
 
     <?php if (strlen($sMetaRefresh)) echo $sMetaRefresh; ?>
     <title>ChurchInfo: <?php echo $sPageTitle; ?></title>

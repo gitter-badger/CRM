@@ -60,8 +60,8 @@ $sPageTitle = gettext('Welcome to ChurchInfo');
 require 'Include/Header.php';
 ?>
 <!-- this page specific styles -->
-<script src="http://cdn.oesmith.co.uk/morris-0.4.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.2/raphael-min.js"></script>
+<script src="<?php echo $sURLPath."/"; ?>js/plugins/morris/morris.min.js"></script>
+<script src="<?php echo $sURLPath."/"; ?>js/plugins/raphael/raphael-min.js"></script>
 
 
 <div class="row">
@@ -294,7 +294,6 @@ require 'Include/Header.php';
 </div>
 
 <!-- this page specific inline scripts -->
-<script src="http://cdn.oesmith.co.uk/morris-0.4.1.min.js"></script>
 <script>
     Morris.Donut({
         element: 'gender-donut',
